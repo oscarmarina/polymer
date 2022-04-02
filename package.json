@@ -1,6 +1,6 @@
 {
   "name": "@blockquote/polymer",
-  "version": "3.4.2",
+  "version": "3.4.3",
   "description": "The Polymer library makes it easy to create your own web components. Give your element some markup and properties, and then use it on a site. Polymer provides features like dynamic templates and data binding to reduce the amount of boilerplate you need to write",
   "main": "lib/utils/gestures.js",
   "module": "polymer-element.js",
@@ -66,9 +66,13 @@
   },
   "files": [
     "lib/elements/custom-style.js",
+    "lib/utils/array-splice.js",
     "lib/utils/async.js",
+    "lib/utils/case-map.js",
     "lib/utils/debounce.js",
     "lib/utils/mixin.js",
+    "lib/utils/path.js",
+    "lib/utils/resolve-url.js",
     "lib/utils/wrap.js"
   ]
 }
